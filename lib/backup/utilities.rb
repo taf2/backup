@@ -7,7 +7,7 @@ module Backup
     UTILITY = {}
     NAMES = %w{
       tar cat split sudo chown hostname
-      gzip bzip2
+      gzip bzip2 pigz
       mongo mongodump mysqldump innobackupex
       pg_dump pg_dumpall redis-cli riak-admin
       gpg openssl
@@ -73,6 +73,7 @@ module Backup
       #
       #     # Compressors
       #     gzip    '/path/to/gzip'
+      #     pigz    '/path/to/pigz'
       #     bzip2   '/path/to/bzip2'
       #
       #     # Database Utilities

@@ -32,7 +32,7 @@ module Backup
               ['S3', 'CloudFiles', 'Ninefold', 'Dropbox', 'FTP',
               'SFTP', 'SCP', 'RSync', 'Local'],
               # Compressors
-              ['Gzip', 'Bzip2', 'Custom', 'Pbzip2', 'Lzma'],
+              ['Gzip', 'Pigz', 'Bzip2', 'Custom', 'Pbzip2', 'Lzma'],
               # Encryptors
               ['OpenSSL', 'GPG'],
               # Syncers
